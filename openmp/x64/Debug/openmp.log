@@ -1,0 +1,73 @@
+﻿  openmp.cpp
+D:\Geo\gdal-2.3.3\include\ogr_featurestyle.h(89,15): warning C4251: “OGRStyleTable::osLastRequestedStyleName”:“CPLStringT<void>”需要有 dll 接口以供“OGRStyleTable”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\Geo\gdal-2.3.3\include\cpl_string.h(326,7):
+      参见“CPLStringT<void>”的声明
+  
+D:\Geo\gdal-2.3.3\include\cpl_json.h(153,17): warning C4251: “CPLJSONObject::m_osKey”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“CPLJSONObject”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(541,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(947,42): warning C4251: “OGRCurve::ConstIterator::m_poPrivate”:“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”需要有 dll 接口以供“OGRCurve::ConstIterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1066,42): warning C4251: “OGRSimpleCurve::Iterator::m_poPrivate”:“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”需要有 dll 接口以供“OGRSimpleCurve::Iterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1083,42): warning C4251: “OGRSimpleCurve::ConstIterator::m_poPrivate”:“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”需要有 dll 接口以供“OGRSimpleCurve::ConstIterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(384,34): warning C4251: “OGRFeature::FieldValue::m_poPrivate”:“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”需要有 dll 接口以供“OGRFeature::FieldValue”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(527,34): warning C4251: “OGRFeature::ConstFieldIterator::m_poPrivate”:“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”需要有 dll 接口以供“OGRFeature::ConstFieldIterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(137,25): warning C4251: “GDALMajorObject::sDescription”:“CPLStringT<void>”需要有 dll 接口以供“GDALMajorObject”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\Geo\gdal-2.3.3\include\cpl_string.h(326,7):
+      参见“CPLStringT<void>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(190,17): warning C4251: “GDALDefaultOverviews::osOvrFilename”:“CPLStringT<void>”需要有 dll 接口以供“GDALDefaultOverviews”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\Geo\gdal-2.3.3\include\cpl_string.h(326,7):
+      参见“CPLStringT<void>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(483,42): warning C4251: “GDALDataset::Bands::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Bands::Iterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(670,42): warning C4251: “GDALDataset::Layers::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Layers::Iterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(728,42): warning C4251: “GDALDataset::Features::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Features::Iterator”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(953,33): warning C4251: “GDALColorTable::aoEntries”:“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”需要有 dll 接口以供“GDALColorTable”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      参见“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”的声明
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(1516,38): warning C4251: “GDALDriverManager::oMapNameToDrivers”:“std::map<CPLString,GDALDriver *,std::less<CPLString>,std::allocator<std::pair<const CPLString,GDALDriver *>>>”需要有 dll 接口以供“GDALDriverManager”的客户端使用
+  (编译源文件“openmp.cpp”)
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\map(72,7):
+      参见“std::map<CPLString,GDALDriver *,std::less<CPLString>,std::allocator<std::pair<const CPLString,GDALDriver *>>>”的声明
+  
+D:\Codes\HP_Compute_C\openmp\openmp.cpp(17,23): warning C4305: “初始化”: 从“double”到“float”截断
+  openmp.vcxproj -> D:\Codes\HP_Compute_C\x64\Debug\openmp.exe

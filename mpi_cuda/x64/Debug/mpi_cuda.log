@@ -1,0 +1,209 @@
+﻿  Compiling CUDA source file mpi_cuda.cu...
+  
+  D:\Codes\HP_Compute_C\mpi_cuda>"D:\CUDA Toolkit\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"D:\CUDA Toolkit\include" -I"D:\CUDA Toolkit\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Codes\HP_Compute_C\mpi_cuda\x64\Debug\mpi_cuda.cu.obj "D:\Codes\HP_Compute_C\mpi_cuda\mpi_cuda.cu" 
+D:\Geo\gdal-2.3.3\include\ogr_featurestyle.h(89): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString osLastRequestedStyleName;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Geo\gdal-2.3.3\include\cpl_json.h(153): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::string m_osKey;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(947): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1066): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1083): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(384): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(137): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString           sDescription;
+                            ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString   osOvrFilename;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(483): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(670): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(728): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(953): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<GDALColorEntry> aoEntries;
+                                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(1516): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::map<CPLString, GDALDriver*> oMapNameToDrivers;
+                                         ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_featurestyle.h(89): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString osLastRequestedStyleName;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Geo\gdal-2.3.3\include\cpl_json.h(153): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::string m_osKey;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(947): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1066): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1083): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(384): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(137): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString           sDescription;
+                            ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString   osOvrFilename;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(483): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(670): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(728): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(953): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<GDALColorEntry> aoEntries;
+                                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(1516): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::map<CPLString, GDALDriver*> oMapNameToDrivers;
+                                         ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_featurestyle.h(89): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString osLastRequestedStyleName;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Geo\gdal-2.3.3\include\cpl_json.h(153): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::string m_osKey;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(947): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1066): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1083): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(384): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+            std::unique_ptr<Private> m_poPrivate;
+                                     ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(137): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString           sDescription;
+                            ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        CPLString   osOvrFilename;
+                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(483): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(670): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(728): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+                    std::unique_ptr<Private> m_poPrivate;
+                                             ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(953): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<GDALColorEntry> aoEntries;
+                                    ^
+  
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(1516): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::map<CPLString, GDALDriver*> oMapNameToDrivers;
+                                         ^
+  
+  mpi_cuda.cu
+  tmpxft_000025d4_00000000-7_mpi_cuda.compute_52.cudafe1.cpp
+D:\Geo\gdal-2.3.3\include\ogr_featurestyle.h(89): warning C4251: “OGRStyleTable::osLastRequestedStyleName”:“CPLStringT<void>”需要有 dll 接口以供“OGRStyleTable”的客户端使用
+  D:\Geo\gdal-2.3.3\include\cpl_string.h(326): note: 参见“CPLStringT<void>”的声明
+D:\Geo\gdal-2.3.3\include\cpl_json.h(153): warning C4251: “CPLJSONObject::m_osKey”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“CPLJSONObject”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(541): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(947): warning C4251: “OGRCurve::ConstIterator::m_poPrivate”:“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”需要有 dll 接口以供“OGRCurve::ConstIterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1066): warning C4251: “OGRSimpleCurve::Iterator::m_poPrivate”:“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”需要有 dll 接口以供“OGRSimpleCurve::Iterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\ogr_geometry.h(1083): warning C4251: “OGRSimpleCurve::ConstIterator::m_poPrivate”:“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”需要有 dll 接口以供“OGRSimpleCurve::ConstIterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(384): warning C4251: “OGRFeature::FieldValue::m_poPrivate”:“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”需要有 dll 接口以供“OGRFeature::FieldValue”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\ogr_feature.h(527): warning C4251: “OGRFeature::ConstFieldIterator::m_poPrivate”:“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”需要有 dll 接口以供“OGRFeature::ConstFieldIterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(137): warning C4251: “GDALMajorObject::sDescription”:“CPLStringT<void>”需要有 dll 接口以供“GDALMajorObject”的客户端使用
+  D:\Geo\gdal-2.3.3\include\cpl_string.h(326): note: 参见“CPLStringT<void>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(190): warning C4251: “GDALDefaultOverviews::osOvrFilename”:“CPLStringT<void>”需要有 dll 接口以供“GDALDefaultOverviews”的客户端使用
+  D:\Geo\gdal-2.3.3\include\cpl_string.h(326): note: 参见“CPLStringT<void>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(483): warning C4251: “GDALDataset::Bands::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Bands::Iterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(670): warning C4251: “GDALDataset::Layers::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Layers::Iterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(728): warning C4251: “GDALDataset::Features::Iterator::m_poPrivate”:“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”需要有 dll 接口以供“GDALDataset::Features::Iterator”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347): note: 参见“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(953): warning C4251: “GDALColorTable::aoEntries”:“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”需要有 dll 接口以供“GDALColorTable”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442): note: 参见“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”的声明
+D:\Geo\gdal-2.3.3\include\gdal_priv.h(1516): warning C4251: “GDALDriverManager::oMapNameToDrivers”:“std::map<CPLStringT<void>,GDALDriver *,std::less<CPLStringT<void>>,std::allocator<std::pair<const CPLStringT<void>,GDALDriver *>>>”需要有 dll 接口以供“GDALDriverManager”的客户端使用
+  D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\map(72): note: 参见“std::map<CPLStringT<void>,GDALDriver *,std::less<CPLStringT<void>>,std::allocator<std::pair<const CPLStringT<void>,GDALDriver *>>>”的声明
+D:\Codes\HP_Compute_C\mpi_cuda\mpi_cuda.cu(120): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  mpi_cuda.vcxproj -> D:\Codes\HP_Compute_C\x64\Debug\mpi_cuda.exe
